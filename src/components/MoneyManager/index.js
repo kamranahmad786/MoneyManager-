@@ -187,7 +187,7 @@ class MoneyManager extends Component {
                     <p className="table-header-cell">Type</p>
                   </li>
                   {TransactionItem.map(eachTransaction => (
-                    <TransactionItem
+                    <transactionsList
                       key={eachTransaction.id}
                       transactionDetails={eachTransaction}
                       deleteTransaction={this.deleteTransaction}
