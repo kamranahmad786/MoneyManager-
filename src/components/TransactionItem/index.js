@@ -2,8 +2,8 @@
 import './index.css'
 
 const TransactionItem = props => {
-  const {TransactionDetails, deleteTransaction} = props
-  const {id, title, amount, type} = TransactionDetails
+  const {transactionDetails, deleteTransaction} = props
+  const {id, title, amount, type} = transactionDetails
 
   const onDeleteTransaction = () => {
     deleteTransaction(id)
