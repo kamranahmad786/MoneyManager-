@@ -21,8 +21,8 @@
   align-items: center;
   background-color: #ecfccb;
   width: 1px solid #84cc16;
-  border-radius: 16px;
-  margin-bottom: 16px;
+  border-radius: 18px;
+  margin-bottom: 18px;
 }
 
 @media screen and(min-width:768px) {
